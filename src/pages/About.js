@@ -1,15 +1,12 @@
 import React, { useEffect, useRef } from 'react'
 import AnimatedText from "../components/AnimatedText"
-import Dev from "../assets/Images/developer-pic-2.jpg"
-import Me from "../assets/Images/Me.JPG"
-
+import Me from "../assets/Images/chrisImage.jpeg"
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Education from '../components/Education'
 import Layout from "../components/Layout"
 import TransitionEffect from '../components/TransitionEffect'
-import Skill from "../components/Skill"
 
 const AnimatedNumbers=({value})=>{
   const ref =useRef(null);
@@ -44,9 +41,10 @@ function About() {
 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 '>Biography</h2>
-<p className='font-medium'>Hi, I'm Christopher Oche, a software developer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 2 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients' visions to life.
+<p className='font-medium'>Hi, I'm Christopher Oche, a software and AI developer with a passion for creating beautiful, functional, and user-centered digital experiences. With 4 years of experience, I specialize in backend development, AI-driven solutions, and intuitive user interfaces. I’m always looking for innovative ways to bring my clients' visions to life.
+
+I believe programming is about more than just making things look pretty – it's about solving complex problems and creating seamless, enjoyable experiences. Whether I'm working on a website, mobile app, enterprise application, or AI-powered system, I bring my commitment to excellent, user-centered thinking to every project I tackle. I look forward to bringing my skills and passion to your next project.
+
 </p>
 <p className='my-4 font-medium'>I believe that programming is about more than just making things look pretty – it's about solving problems and 
 creating intuitive, enjoyable experiences for users. 
@@ -66,14 +64,14 @@ every project I work on. I look forward to the opportunity to bring my skills an
 <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
   <div className='flex flex-col items-end justify-center xl:items-center'>
     <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-      <AnimatedNumbers value={18}/>+
+      <AnimatedNumbers value={25}/>+
     </span>
     <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm dark:text-light'>Satisfied Clients</h2>
   </div>
 
   <div className='flex flex-col items-end justify-center xl:items-center'>
     <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl '>
-    <AnimatedNumbers value={30}/>+
+    <AnimatedNumbers value={55}/>+
     </span>
     <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm dark:text-light'>Project Completed</h2>
 
@@ -81,7 +79,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
 
   <div className='flex flex-col items-end justify-center xl:items-center'>
     <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-    <AnimatedNumbers value={2}/>+
+    <AnimatedNumbers value={4}/>+
     </span>
     <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm dark:text-light'>Years Of Experience</h2>
 

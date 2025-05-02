@@ -32,32 +32,16 @@ function Experience() {
     style={{scaleY:scrollYProgress}}
     className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
     <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-{/* <Details position="Software Engineer" company="Google" companyLink="www.google.com" time="2022-Present" address="Mountain View, CA"
-work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+<Details position="Software Engineer" company="WinResponse" companyLink="https:winresponse.io" time="2024-2025" address="Rotterdam, Netherlands"
+work="Developed CI/CD pipelines, Integrated AI features, and enhanced video conferencing capabilities, optimizing performance and streamlining deployment for WinResponse."
  
 />
-<Details position="Intern" company="Facebook" companyLink="www.facebook.com" time="Summer 2021" address="Menlo Park, CA"
-work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
-"
- 
-/> */}
-<Details position="Software Developer" company="BrideTv" companyLink="www.amazon.com" time="2020-2021" address="Seattle, WA"
-work="Worked on a team responsible for developing BrideTv's custom software internally, Designed and developed the backend web services for applications.
-"
- 
-/>
-<Details position="Software Developer" company="Chrisland University" companyLink="www.microsoft.com" time="Summer 2019" address="Redmond, WA."
+<Details position="Software Developer" company="Chrisland University" companyLink="www.microsoft.com" time="2021-2022" address="Ogun state, Nigeria."
 work="Implemented real time geolocation tracking to automatically mark students as present or absent, enhancing accuracy and efficiency in attendance management"
  
 />
-<Details position="Software Developer" company="Lawma" companyLink="www.mit.com" time="Fall 2018" address="Massachusetts Ave, Cambridge, MA."
-work="Integrated a cloud-based image uploading to Cloudinary, enhancing the platforms multimedia capabilities, 
-and graded exams and assignments.
-"
+<Details position="Software Developer" company="Lawma" companyLink="www.mit.com" time="2022-2024" address="Lagos,Nigeria."
+work="Developed a scalable waste bin purchase platform that enabled millions of lagos state government to order government issued-bin online."
  
 />
 

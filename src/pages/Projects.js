@@ -1,10 +1,10 @@
 import React from 'react'
 import AnimatedText from "../components/AnimatedText"
 import {GithubIcon} from "../assets/Icons/Icons"
-import project1 from "../assets/ProjectImages/crypto.jpg"
+import project1 from "../assets/ProjectImages/project1.png"
 import project2 from "../assets/ProjectImages/nft.jpg"
 import project3 from "../assets/ProjectImages/fashion.jpg"
-import project4 from "../assets/ProjectImages/portfolio.jpg"
+import project4 from "../assets/ProjectImages/project4.png"
 import project5 from "../assets/ProjectImages/agency.jpg"
 import project6 from "../assets/ProjectImages/devdream.jpg"
 import Layout from "../components/Layout"
@@ -70,12 +70,10 @@ function Projects() {
   <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
   <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
 <div className='col-span-12 dark:text-light'>
-<FeaturedProject title="Crypto Screener Application"
-img={project1} summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-link="/"
-github="https://github.com/christopher827"
+<FeaturedProject title="Buy LawmaBin"
+img={project1} summary="Developed a digital platform for Lagos residents to purchase waste bins, integrating secure payment via Wema Bank's virtual accounts. Simplified the process, enabling efficient waste management for millions across the city."
+link="https://buylawmabin.com"
+github="https://github.com/Patrick-Oche/buylawmabin"
 type="Featured Project"
 />
 </div>
@@ -107,12 +105,11 @@ type="Website Template"
 </div>
 
 <div className='col-span-12 dark:text-light'>
-<FeaturedProject title="NextJS Portfolio Website"
-img={project4} summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-page transitions, cool background effects, unique design and it is mobile responsive.
+<FeaturedProject title="WinResponse"
+img={project4} summary="Developed and integrated CI/CD pipelines, AI-powered solutions, and enhanced video conference features for WinResponse, optimizing system performance and streamlining deployment processes.
 "
-link="/"
-github="https://github.com/christopher827"
+link="https://winresponse.io"
+github="https://github.AngleQuest/version-v1-ade.git/"
 type="Featured Project"
 />
 </div>
