@@ -1,5 +1,7 @@
 import React from 'react'
-import DevPic from "../assets/Images/developer-pic-1.png"
+// import DevPic from "../assets/Images/developer-pic-1.png"
+import chrisImg from "../assets/Images/chrisImage.webp"
+
 import AnimatedText from '../components/AnimatedText'
 import Resume from "../assets/Resume/ChristopherOche.pdf"
 import { LinkArrow } from '../assets/Icons/Icons'
@@ -16,7 +18,7 @@ function Home() {
 <Layout className='pt-0 md:p-16 sm:pt-8'>
 <div className='flex items-center justify-between w-full lg:flex-col'>
 <div className='w-1/2 md:w-full'>
-  <img src={DevPic} alt='Christopher Oche' className='w-full h-auto lg:hidden md:inline-block md:w-full' sizes="{max-width:768px } 100vw, {max-width:1200px} 50vw, 50vw"/>
+  <img src={chrisImg} alt='Christopher Oche' className='w-full h-auto lg:hidden md:inline-block md:w-full' sizes="{max-width:768px } 100vw, {max-width:1200px} 50vw, 50vw"/>
 </div>
 
 <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center '>
