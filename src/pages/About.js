@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import AnimatedText from "../components/AnimatedText"
-import Me from "../assets/Images/chrisImage.jpeg"
+import Me from "../assets/Images/chrisImage.webp"
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '../components/Skills'
 import Experience from '../components/Experience'
