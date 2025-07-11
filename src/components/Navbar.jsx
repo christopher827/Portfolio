@@ -93,7 +93,6 @@ className="min-w-[70vw] flex flex-col  justify-between z-30 items-center fixed t
 <CustomMobileLink href="/" className="" title="Home" toggle={handleClick}/>
 <CustomMobileLink href="/about" className="" title="About" toggle={handleClick}/>
 <CustomMobileLink href="/projects" className="" title="Projects" toggle={handleClick}/>
-<CustomMobileLink href="/articles" className="" title="Articles" toggle={handleClick}/>
 </nav>
 
 <nav className="flex items-center justify-center flex-wrap mt-2">
