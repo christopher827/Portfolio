@@ -1,7 +1,7 @@
 import React from 'react'
 import DevPic from "../assets/Images/developer-pic-1.png"
 import AnimatedText from '../components/AnimatedText'
-import Resume from "../assets/Resume/dummy.pdf"
+import Resume from "../assets/Resume/ChristopherOche.pdf"
 import { LinkArrow } from '../assets/Icons/Icons'
 import HireMe from '../components/HireMe'
 import Bulb from "../assets/Icons/miscellaneous_icons_1.svg"
