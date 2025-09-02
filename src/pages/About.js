@@ -41,7 +41,10 @@ function About() {
 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 '>Biography</h2>
-<p className='font-medium'>Hi, I'm Christopher Oche, a software and AI developer with a passion for creating beautiful, functional, and user-centered digital experiences. With 4 years of experience, I specialize in backend development, AI-driven solutions, and intuitive user interfaces. I’m always looking for innovative ways to bring my clients' visions to life.
+<p className='font-medium'>Hi, I'm Christopher Oche, a software and AI developer with a passion for creating beautiful, functional,
+and user-centered digital experiences. With 4 years of experience, I specialize in backend
+development, AI-driven solutions, Microsoft Power Platform, and intuitive user interfaces.
+ I’m always looking for innovative ways to bring my clients' visions to life.
 
 I believe programming is about more than just making things look pretty – it's about solving complex problems and creating seamless, enjoyable experiences. Whether I'm working on a website, mobile app, enterprise application, or AI-powered system, I bring my commitment to excellent, user-centered thinking to every project I tackle. I look forward to bringing my skills and passion to your next project.
 
@@ -49,9 +52,7 @@ I believe programming is about more than just making things look pretty – it's
 <p className='my-4 font-medium'>I believe that programming is about more than just making things look pretty – it's about solving problems and 
 creating intuitive, enjoyable experiences for users. 
 </p>
-<p className='font-medium'>Whether I'm working on a website, mobile app, or an
-enterprise application, I bring my commitment to develop excellent and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+<p className='font-medium'>Whether I’m working on a website, mobile app, enterprise application, Power Platform solution, or AI-powered system, I bring my commitment to excellence and user-centered thinking to every project. I look forward to bringing my skills and passion to your next project.
 </p>
 </div>
 
