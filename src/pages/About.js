@@ -52,8 +52,6 @@ I believe programming is about more than just making things look pretty – it's
 <p className='my-4 font-medium'>I believe that programming is about more than just making things look pretty – it's about solving problems and 
 creating intuitive, enjoyable experiences for users. 
 </p>
-<p className='font-medium'>Whether I’m working on a website, mobile app, enterprise application, Power Platform solution, or AI-powered system, I bring my commitment to excellence and user-centered thinking to every project. I look forward to bringing my skills and passion to your next project.
-</p>
 </div>
 
 <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
